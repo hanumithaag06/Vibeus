@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class YouTubeService {
-  static const String apiKey = "AIzaSyBs3Dj_Y5cJy0Uek5kIb5VCile6fbLm5hM";
+  static const String apiKey = "api_key";
 
   static Future<List> searchSongs(String query) async {
     final url =
